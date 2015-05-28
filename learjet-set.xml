@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--************************************************************************
+Learjet 35A
+Feb 2009  Xsaint , based on Syd's Bravo FDM()
+PH-JBO 20120130p
+************************************************************************
+-->
+<PropertyList>
+  <sim>
+    <description>Bombardier Learjet 35A</description>
+    <author>v20120130p XSAINT;PH-JBO</author>
+    <status>Early production</status>
+    <rating>
+      <FDM type = "int">4</FDM>
+      <systems type = "int">3</systems>
+      <cockpit type = "int">4</cockpit>
+      <model type = "int">3</model>
+    </rating>
+    <flight-model>yasim</flight-model>
+    <aero>learjet-yasim</aero>
+    <fuel-fraction>0.7114</fuel-fraction>
+    <startup>
+      <splash-texture>Aircraft/Learjet2/learjet-splash.png</splash-texture>
+    </startup>
+    <view n = "0">
+      <name>Cockpit</name>
+      <type>lookfrom</type>
+      <internal type = "bool">true</internal>
+      <config>
+        <x-offset-m type = "double">-0.34</x-offset-m>
+        <y-offset-m type = "double">1.05</y-offset-m>
+        <z-offset-m type = "double">3.20</z-offset-m>
+        <pitch-offset-deg>-11</pitch-offset-deg>
+        <default-field-of-view-deg type = "double">60.0</default-field-of-view-deg>
+        <limits>
+          <enabled type = "bool">true</enabled>
+          <left>
+            <heading-max-deg type = "double">160</heading-max-deg>
+            <x-offset-max-m type = "double">0.22</x-offset-max-m>
+            <x-offset-threshold-deg type = "double">45</x-offset-threshold-deg>
+          </left>
+          <right>
+            <heading-max-deg type = "double">160</heading-max-deg>
+            <x-offset-max-m type = "double">0.25</x-offset-max-m>
+            <x-offset-threshold-deg type = "double">65</x-offset-threshold-deg>
+          </right>
+        </limits>
+      </config>
+    </view>
+    <view n = "101">
+      <name>MFD</name>
+      <type>lookfrom</type>
+      <internal type = "bool">true</internal>
+      <config>
+        <from-model type = "bool">true</from-model>
+        <x-offset-m type = "double">-0.05</x-offset-m>
+        <y-offset-m type = "double">0.63</y-offset-m>
+        <z-offset-m type = "double">2.82</z-offset-m>
+        <pitch-offset-deg>-11</pitch-offset-deg>
+        <default-field-of-view-deg type = "double">60.0</default-field-of-view-deg>
+      </config>
+    </view>
+    <view n = "102">
+      <name>NAV</name>
+      <type>lookfrom</type>
+      <internal type = "bool">true</internal>
+      <config>
+        <from-model type = "bool">true</from-model>
+        <x-offset-m type = "double">-0.31</x-offset-m>
+        <y-offset-m type = "double">0.74</y-offset-m>
+        <z-offset-m type = "double">2.87</z-offset-m>
+        <pitch-offset-deg>-11</pitch-offset-deg>
+        <default-field-of-view-deg type = "double">60.0</default-field-of-view-deg>
+      </config>
+    </view>
+    <airport>
+      <runways>
+        <start-offset-m>30</start-offset-m>
+      </runways>
+    </airport>
+    <allow-toggle-cockpit>true</allow-toggle-cockpit>
+    <systems>
+      <autopilot>
+        <path>Aircraft/Learjet2/Systems/learjet-autopilot.xml</path>
+      </autopilot>
+      <path>Aircraft/Learjet2/Systems/systems.xml</path>
+    </systems>
+    <sound>
+      <path>Aircraft/Learjet2/Sound/learjet-sound.xml</path>
+    </sound>
+    <hud>
+      <path>Aircraft/Learjet2/Hud/micro.xml</path>
+      <path>Aircraft/Learjet2/Hud/micro.xml</path>
+      <path>Huds/default.xml</path>
+      <path>Huds/minimal.xml</path>
+    </hud>
+    <virtual-cockpit archive = "y">true</virtual-cockpit>
+    <help>
+      <title>Learjet 35A</title>
+      <key>
+        <name>Keypad Delete</name>
+        <desc>toggle Reversers</desc>
+      </key>
+      <key>
+        <name>Control B</name>
+        <desc>toggle Spoilerons</desc>
+      </key>
+      <key>
+        <name>c</name>
+        <desc>no-cockpit-view</desc>
+      </key>
+      <line>---Take off and climb---</line>
+      <line>Pre-takeoff check: spoilers, flaps, trim, brake</line>
+      <line>Pre-takeoff: enable ALT and HDG in autopilot (AP), set ALT + HDG in AP, set QNH</line>
+      <line>Takeoff: flaps 8, release brakes, N1= 100%...105%, Vr= 119 KIAS, rotate 7</line>
+      <line>Above 180 KIAS: retract gear, retract flaps, rotate 14</line>
+      <line>Above 3000 AGL: turn, N1= 85%, keep speed 190...220 KIAS with pitch, rotate to 7</line>
+      <line>Above 18.000 AGL: enable AP, set STD</line>
+      <line>Wait at FL390 until speed above 190 KIAS to step to FL410</line>
+      <line>At FL410 after 4 mins set IAS in AP</line>
+      <line>Service ceiling: 41.000 feet at 220 KIAS (N1= 85%)</line>
+      <line>----Descend and land----</line>
+      <line>Aim at 7...5 NM from RW, 1500 AGL, 170 KIAS, flaps 8. Intercept radial</line>
+      <line>Intercept glidescope at 1500 AGL 4.7 NM. Flaps 20, IAS (AP) 130 KIAS</line>
+      <line>Pull nose to stay above glidescope, slow down (AP) to stay below glidescope</line>
+      <line>Between 1.000 AGL and 500 AGL flaps 40. At 500 AGL lower landinggear</line>
+      <line>At landing threshold: power idle, pull nose, land on two weels</line>
+      <line>Touchdown: reversers, max throttle, spoilerons</line>
+      <line>Below 60 KTAS, throttle idle, retract reversers, use brakes</line>
+      <line>-------Limitations------</line>
+      <line>N1: 105% 5 secs, 103% 5 mins, 100% continuous</line>
+      <line>Vne: 300 KIAS below FL80, 350 KIAS above FL80</line>
+      <line>Mne: 0.83 Mach</line>
+      <line>Va: 220 KIAS (use AP above)</line>
+      <line>MTOW: 18.300 lbs MLW: 15.300 lbs</line>
+      <line>Ceiling: 45.000 feet (pressure altitude)</line>
+      <line>No spoilerons and flaps while in flight</line>
+      <line>Vfe8= 198, Vfe20= 183, Vfe40= 153, Vle= 200</line>
+    </help>
+    <model>
+      <path>Aircraft/Learjet2/Models/Learjet-35A.xml</path>
+      <autostart type = "bool">0</autostart>
+      <livery>
+        <name type = "string">Wavevom</name>
+        <Learjet35A-texture>Paint1.png</Learjet35A-texture>
+        <file type = "string"/>
+      </livery>
+      <learjet>
+        <n1 n = "0" type = "double">0</n1>
+        <n1 n = "1" type = "double">0</n1>
+        <n2 n = "0" type = "double">0</n2>
+        <n2 n = "1" type = "double">0</n2>
+        <start-cycle n = "0" type = "bool">0</start-cycle>
+        <start-cycle n = "1" type = "bool">0</start-cycle>
+      </learjet>
+    </model>
+    <weight n = "0">
+      <name>Crew</name>
+      <weight-lb>180</weight-lb>
+      <max-lb>400</max-lb>
+      <min-lb>120</min-lb>
+    </weight>
+    <weight n = "1">
+      <name>Passengers</name>
+      <weight-lb>300</weight-lb>
+      <max-lb>1600</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+    <weight n = "2">
+      <name>Front Baggage</name>
+      <weight-lb>50</weight-lb>
+      <max-lb>100</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+    <weight n = "3">
+      <name>Rear Baggage</name>
+      <weight-lb>200</weight-lb>
+      <max-lb>500</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+    <flaps>
+      <setting>0.0</setting><!--Cruise -->
+      <setting>0.2</setting><!--Appr / Takeoff 8 degrees -->
+      <setting>0.5</setting><!--Land  20 degrees  -->
+      <setting>1.0</setting><!--Land  40-->
+    </flaps>
+    <instrumentation>
+      <path>Aircraft/Learjet2/Systems/instrumentation.xml</path>
+    </instrumentation>
+    <yokes-visible type = "bool">1</yokes-visible>
+    <head-bounce type = "bool">0</head-bounce>
+    <tutorials>
+      <tutorial include = "Tutorials/startup_tutorial.xml"/>
+    </tutorials>
+    <menubar>
+      <default>
+        <menu n = "3">
+          <item n = "0">
+            <label>Autopilot Settings</label>
+            <binding>
+              <command>nasal</command>
+              <script>learjet.ap_settings.open()</script>
+            </binding>
+          </item>
+        </menu>
+        <menu n = "10">
+          <label>Learjet 35A</label>
+          <enabled type = "bool">true</enabled>
+          <item>
+            <label>Autostart</label>
+            <binding>
+              <command>property-toggle</command>
+              <property>sim/model/autostart</property>
+            </binding>
+          </item>
+          <item>
+            <label>Yokes On/Off</label>
+            <binding>
+              <command>property-toggle</command>
+              <property>sim/yokes-visible</property>
+            </binding>
+          </item>
+          <item>
+            <label>Map Lights</label>
+            <binding>
+              <command>property-toggle</command>
+              <property>controls/lighting/map-lights</property>
+            </binding>
+          </item>
+          <item>
+            <label>Cabin Lights</label>
+            <binding>
+              <command>property-toggle</command>
+              <property>controls/lighting/cabin-lights</property>
+            </binding>
+          </item>
+        </menu>
+      </default>
+    </menubar>
+    <flight-recorder>
+      <replay-config type = "int">0</replay-config>
+      <config n = "0" include = "/Aircraft/Generic/flightrecorder/generic-jet.xml">
+        <name type = "string">Learjet 35-A Flight Recorder</name>
+        <signal>
+          <type>float</type>
+          <property type = "string">/consumables/fuel/tank[4]/level-gal_us</property>
+        </signal>
+        <signal>
+          <type>bool</type>
+          <property type = "string">/controls/fuel/tank[4]/fuel_selector</property>
+        </signal>
+        <signal>
+          <type>float</type>
+          <property type = "string">/surface-positions/reverser-norm</property>
+        </signal>
+        <signal>
+          <type>float</type>
+          <property type = "string">/surface-positions/reverser-norm[1]</property>
+        </signal>
+      </config>
+    </flight-recorder>
+  </sim>
+  <systems>
+    <electrical>
+      <ac-volts>0</ac-volts>
+      <outputs>
+        <efis>0</efis>
+      </outputs>
+    </electrical>
+  </systems>
+  <controls>
+    <gear>
+      <brake-parking>1</brake-parking>
+    </gear>
+    <electric>
+      <engine n = "0">
+        <generator type = "bool">0</generator>
+      </engine>
+      <engine n = "1">
+        <generator type = "bool">0</generator>
+      </engine>
+      <avionics-switch type = "bool">0</avionics-switch>
+      <battery-switch type = "bool">0</battery-switch>
+      <inverter-switch type = "bool">0</inverter-switch>
+      <external-power type = "bool">0</external-power>
+    </electric>
+    <lighting>
+      <instrument-lights type = "bool">1</instrument-lights>
+      <landing-lights type = "bool">0</landing-lights>
+      <recog-lights type = "bool">0</recog-lights>
+      <cabin-lights type = "bool">0</cabin-lights>
+      <map-lights type = "bool">0</map-lights>
+      <wing-lights type = "bool">0</wing-lights>
+      <recog-lights type = "bool">0</recog-lights>
+      <logo-lights type = "bool">0</logo-lights>
+      <taxi-lights type = "bool">0</taxi-lights>
+      <beacon type = "bool">0</beacon>
+      <strobe type = "bool">0</strobe>
+      <nav-lights type = "bool">0</nav-lights>
+      <instruments-norm type = "double">0.8</instruments-norm>
+      <efis-norm type = "double">0.8</efis-norm>
+      <engines-norm type = "double">0.8</engines-norm>
+      <panel-norm type = "double">0.8</panel-norm>
+    </lighting>
+    <engines>
+      <N1-limit type = "double">105.0</N1-limit>
+    </engines>
+    <anti-ice>
+      <prop-heat type = "bool"></prop-heat>
+      <pitot-heat type = "bool"></pitot-heat>
+    </anti-ice>
+    <cabin>
+      <fan type = "bool">0</fan>
+      <heat type = "bool"></heat>
+    </cabin>
+  </controls>
+  <instrumentation>
+    <radar>
+      <switch type = "string" archive = "y">on</switch>
+      <mode-control type = "int" archive = "y">1</mode-control>
+      <display-controls>
+        <WX type = "bool" archive = "y">false</WX>
+        <pos type = "bool" archive = "y">true</pos>
+        <data type = "bool" archive = "y">true</data>
+        <symbol type = "bool" archive = "y">true</symbol>
+        <rotate type = "bool" archive = "y">true</rotate>
+        <tcas type = "bool" archive = "y">true</tcas>
+      </display-controls>
+      <serviceable type = "bool">true</serviceable>
+      <range type = "int" archive = "y">5</range>
+      <reference-range-nm type = "double" archive = "y">640</reference-range-nm>
+      <mode type = "string" archive = "y">WX</mode>
+      <font>
+        <name type = "string">helvetica_bold.txf</name>
+        <size type = "float">14</size>
+        <line-spacing type = "float">0.</line-spacing>
+        <color>
+          <red type = "float">0.7</red>
+          <green type = "float">0.7</green>
+          <blue type = "float">0.7</blue>
+          <alpha type = "float">1</alpha>
+        </color>
+        <tcas>
+          <color n = "0"><!--distant targets -->
+            <red type = "float">0</red>
+            <green type = "float">1</green>
+            <blue type = "float">1</blue>
+          </color>
+          <color n = "1"><!--proximity targets -->
+            <red type = "float">0</red>
+            <green type = "float">1</green>
+            <blue type = "float">1</blue>
+          </color>
+          <color n = "2"><!--TA threat targets -->
+            <red type = "float">1</red>
+            <green type = "float">0.5</green>
+            <blue type = "float">0</blue>
+          </color>
+          <color n = "3"><!--RA threat targets -->
+            <red type = "float">1</red>
+            <green type = "float">0</green>
+            <blue type = "float">0</blue>
+          </color>
+        </tcas>
+      </font>
+      <lightning type = "bool" archive = "y">true</lightning>
+      <display-mode type = "string" archive = "y">plan</display-mode>
+      <radar-texture-path type = "string" archive = "y">Aircraft/Instruments-3d/primus-1000/MFD/od_wxradar.png</radar-texture-path>
+      <echo-texture-path type = "string" archive = "y">Aircraft/Learjet2/Models/Instruments/wxecho.png</echo-texture-path>
+      <minimized type = "bool" archive = "y">false</minimized>
+      <heading-marker type = "bool" archive = "y">true</heading-marker>
+      <limit-deg type = "int">360</limit-deg>
+    </radar>
+    <annunciators>
+      <master-warning type = "bool">0</master-warning>
+      <master-caution type = "bool">0</master-caution>
+      <LHign type = "bool">0</LHign>
+      <RHign type = "bool">0</RHign>
+      <batt type = "bool">0</batt>
+      <batt160 type = "bool">0</batt160>
+      <cab-alt type = "bool">0</cab-alt>
+      <ac-fail type = "bool">0</ac-fail>
+      <oil-psi type = "bool">0</oil-psi>
+      <fire-det type = "bool">0</fire-det>
+      <oil-fltr-bp type = "bool">0</oil-fltr-bp>
+      <fuel-gauge type = "bool">0</fuel-gauge>
+      <fuel-boost type = "bool">0</fuel-boost>
+      <fuel-lo type = "bool">0</fuel-lo>
+      <fuel-psi type = "bool">0</fuel-psi>
+      <fuel-fltr-bp type = "bool">0</fuel-fltr-bp>
+      <gen-off type = "bool">0</gen-off>
+      <invtr-fail type = "bool">0</invtr-fail>
+      <lo-brk-psi type = "bool">0</lo-brk-psi>
+      <antiskid type = "bool">0</antiskid>
+      <emer-psi type = "bool">0</emer-psi>
+      <spd-brk type = "bool">0</spd-brk>
+      <hyd-flow type = "bool">0</hyd-flow>
+      <lo-hyd-lvl type = "bool">0</lo-hyd-lvl>
+      <hyd-psi type = "bool">0</hyd-psi>
+      <eng-vib type = "bool">0</eng-vib>
+      <door-seal type = "bool">0</door-seal>
+      <bld-air-gnd type = "bool">0</bld-air-gnd>
+      <bagg-door type = "bool">0</bagg-door>
+      <cabin-door type = "bool">0</cabin-door>
+      <aft-bagg-door type = "bool">0</aft-bagg-door>
+      <ap-pitch-trim type = "bool">0</ap-pitch-trim>
+      <ap-roll-trim type = "bool">0</ap-roll-trim>
+      <chk-pfd-1 type = "bool">0</chk-pfd-1>
+      <chk-pfd-2 type = "bool">0</chk-pfd-2>
+      <nose-av-fan type = "bool">0</nose-av-fan>
+      <grnd-idle type = "bool">0</grnd-idle>
+      <tas-htr type = "bool">0</tas-htr>
+      <fw-shutoff type = "bool">0</fw-shutoff>
+      <stby-ps-htr type = "bool">0</stby-ps-htr>
+      <aoa-htr type = "bool">0</aoa-htr>
+      <ps-htr type = "bool">0</ps-htr>
+      <eng-antice type = "bool">0</eng-antice>
+      <ws-oheat type = "bool">0</ws-oheat>
+      <surf-deice type = "bool">0</surf-deice>
+      <air-dct-oheat type = "bool">0</air-dct-oheat>
+      <acm-psi type = "bool">0</acm-psi>
+      <gear-unlocked type = "bool">0</gear-unlocked>
+      <gear-N type = "bool">0</gear-N>
+      <gear-L type = "bool">0</gear-L>
+      <gear-R type = "bool">0</gear-R>
+    </annunciators>
+    <alerts>
+      <gear-horn type = "bool">0</gear-horn>
+      <stall type = "bool">0</stall>
+      <overspeed type = "bool">0</overspeed>
+    </alerts>
+    <mk-viii>
+      <serviceable>1</serviceable>
+      <speaker>
+        <max-dist>2</max-dist>
+        <reference-dist>1</reference-dist>
+        <volume>0.5</volume>
+      </speaker>
+      <category-1>3</category-1>
+      <category-8>3</category-8>
+    </mk-viii>
+    <kr-87>
+      <inputs>
+        <volume>0</volume>
+      </inputs>
+    </kr-87>
+    <nav>
+      <audio-btn>0</audio-btn>
+    </nav>
+    <nav n = "1">
+      <audio-btn>0</audio-btn>
+    </nav>
+    <tcas>
+      <serviceable type = "bool">true</serviceable>
+      <inputs>
+        <mode type = "int">3</mode>
+      </inputs>
+      <voice>
+        <file-prefix type = "string">Sounds/tcas/female/</file-prefix>
+      </voice>
+      <speaker>
+        <max-dist>2</max-dist>
+        <reference-dist>1</reference-dist>
+        <volume>1.5</volume>
+      </speaker>
+    </tcas>
+    <primus1000>
+      <control>
+        <tcas type = "bool">true</tcas>
+      </control>
+    </primus1000>
+  </instrumentation>
+  <engines>
+    <engine n = "0">
+      <running>false</running>
+    </engine>
+    <engine n = "1">
+      <running>false</running>
+    </engine>
+  </engines>
+  <limits>
+    <max-flap-extension-speed>
+      <flaps>0.15</flaps>
+      <speed>198</speed>
+    </max-flap-extension-speed>
+    <max-flap-extension-speed>
+      <flaps>0.45</flaps>
+      <speed>183</speed>
+    </max-flap-extension-speed>
+    <max-flap-extension-speed>
+      <flaps>0.95</flaps>
+      <speed>153</speed>
+    </max-flap-extension-speed>
+    <max-gear-extension-speed>200</max-gear-extension-speed>
+    <max-positive-g>4.1</max-positive-g>
+    <max-negative-g>-1.1</max-negative-g>
+    <mtow>18300</mtow>
+    <mlw>15300</mlw>
+    <ceiling>45500</ceiling>
+    <n1>105.3</n1>
+  </limits>
+  <nasal>
+    <learjet>
+      <file>Aircraft/Learjet2/Nasal/learjet.nas</file>
+      <file>Aircraft/Learjet2/Nasal/Electrical.nas</file>
+      <file>Aircraft/Learjet2/Nasal/flightdirector.nas</file>
+      <file>Aircraft/Learjet2/Nasal/M877.nas</file>
+    </learjet>
+    <efis>
+      <file>Aircraft/Instruments-3d/primus-1000/P1000.nas</file>
+    </efis>
+    <limits>
+      <file>Aircraft/Learjet2/Nasal/limits.nas</file>
+    </limits>
+    <warnings>
+      <file>Aircraft/Learjet2/Nasal/warnings.nas</file>
+    </warnings>
+  </nasal>
+  <input>
+    <keyboard>
+      <key n = "127">
+        <name>Delete</name>
+        <desc>Toggle Reversers</desc>
+        <binding>
+          <command>property-toggle</command>
+          <property>controls/engines/engine[0]/reverser</property>
+        </binding>
+        <binding>
+          <command>property-toggle</command>
+          <property>controls/engines/engine[1]/reverser</property>
+        </binding>
+      </key>
+      <key n = "267">
+        <name>F11</name>
+        <desc>Pop up autopilot dialog</desc>
+        <binding>
+          <command>nasal</command>
+          <script>learjet.ap_settings.toggle()</script>
+        </binding>
+      </key>
+    </keyboard>
+  </input>
+  <consumables>
+    <fuel>
+      <tank n = "0">
+        <name>Tip left</name>
+      </tank>
+      <tank n = "1">
+        <name>Tip right</name>
+      </tank>
+      <tank n = "2">
+        <name>Wing left</name>
+      </tank>
+      <tank n = "3">
+        <name>Wing right</name>
+      </tank>
+      <tank n = "4">
+        <name>Fuselage</name>
+      </tank>
+    </fuel>
+  </consumables>
+</PropertyList>

@@ -1,0 +1,8 @@
+About sounds
+
+The files in this directory appear to be the same as the shared sounds.
+They are not.
+The Pitch or Duration is different, some have been created specially for 
+this Learjet.
+
+PH-JBO 20111222

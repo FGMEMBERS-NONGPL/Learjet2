@@ -1,0 +1,1 @@
+There are two Liveries in this directory. Paint.png and Paint (2).png. To swap livery rename Paint.pnt to Paint (1).png and Paint (2).png to Paint.png.

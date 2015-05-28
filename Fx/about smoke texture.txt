@@ -1,0 +1,7 @@
+I have tried to make a 1 bit alpha smoke texture.
+It is based on the normal smoke textures.
+The 1 bit alpha is to (try) to avoid the alpha sorting bug, 
+but that only works if other transparant textures are also 1 bit
+so I'm unsure about the effectiveness.
+
+PH-JBO
