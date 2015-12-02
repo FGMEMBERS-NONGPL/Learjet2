@@ -239,7 +239,7 @@ PH-JBO 20120130p
     </menubar>
     <flight-recorder>
       <replay-config type = "int">0</replay-config>
-      <config n = "0" include = "/Aircraft/Generic/flightrecorder/generic-jet.xml">
+      <config n = "0" include = "Aircraft/Generic/flightrecorder/generic-jet.xml">
         <name type = "string">Learjet 35-A Flight Recorder</name>
         <signal>
           <type>float</type>
