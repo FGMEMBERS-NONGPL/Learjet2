@@ -5,29 +5,115 @@ PH-JBO 20120130p
 -->
 <PropertyList>
   <path>learjet.ac</path>
+
+  <!-- Livery System : Updated IH-COL Dec 2015 -->
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/Learjet2/Models/Liveries", 10);
+    </load>
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
+
+  <animation>
+    <name>bodyWork</name>
+    <object-name>beacon</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>RHelevator</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>LHelevator</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>Label 002b</object-name>
+    <object-name>LHspoiler.btm</object-name>
+    <object-name>LHspoiler.top</object-name>
+    <object-name>RHspoiler.btm</object-name>
+    <object-name>RHspoiler.top</object-name>
+    <object-name>Wings</object-name>
+    <object-name>LHaileron</object-name>
+    <object-name>Wings</object-name>
+    <object-name>RHaileron</object-name>
+    <object-name>magcompass_1</object-name>
+    <object-name>AuxGear</object-name>
+    <object-name>Bezels.001</object-name>
+    <object-name>Bezels.002</object-name>
+    <object-name>Bezels.004</object-name>
+    <object-name>Ebrake.lever</object-name>
+    <object-name>FlapLever</object-name>
+    <object-name>GWarn.lamp</object-name>
+    <object-name>GearLever</object-name>
+    <object-name>Glareshield</object-name>
+    <object-name>Knob.001</object-name>
+    <object-name>Knob.011</object-name>
+    <object-name>Knob.015</object-name>
+    <object-name>Knob.016</object-name>
+    <object-name>Knob.017</object-name>
+    <object-name>Knob.019</object-name>
+    <object-name>N1Comp</object-name>
+    <object-name>N1Comp.001</object-name>
+    <object-name>Plane.099</object-name>
+    <object-name>Seats</object-name>
+    <object-name>ThrLever01</object-name>
+    <object-name>ThrLever02</object-name>
+    <object-name>TrimWheel</object-name>
+    <object-name>auxgear</object-name>
+    <object-name>cockpit.001</object-name>
+    <object-name>guard</object-name>
+    <object-name>magcompass.001</object-name>
+    <object-name>panel</object-name>
+    <object-name>seat1.001</object-name>
+    <object-name>seat1.002</object-name>
+    <object-name>seat1.003</object-name>
+    <object-name>seat1.004</object-name>
+    <object-name>seat1.005</object-name>
+    <object-name>seats.001</object-name>
+    <object-name>seat1</object-name>
+    <object-name>Cabin.door.001</object-name>
+    <object-name>Cabin.door</object-name>
+    <object-name>Wlightbezel</object-name>
+    <object-name>cabin_1</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>RHwheel.hub</object-name>
+    <object-name>RHwheel</object-name>
+    <object-name>RHUprShock</object-name>
+    <object-name>RHTrailingArm</object-name>
+    <object-name>RHstrut</object-name>
+    <object-name>RHLwrShock</object-name>
+    <object-name>LHwheel.hub</object-name>
+    <object-name>LHUprShock</object-name>
+    <object-name>LHTrailingArm</object-name>
+    <object-name>LHstrut</object-name>
+    <object-name>LHLwrShock</object-name>
+    <object-name>FUdamper</object-name>
+    <object-name>FrtWheel.hub</object-name>
+    <object-name>FrtStrut</object-name>
+    <object-name>FLdamper</object-name>
+    <object-name>Wings.whlwell</object-name>
+    <object-name>Engines</object-name>
+    <object-name>Label 002b</object-name>
+    <object-name>Wings</object-name>
+    <object-name>RHflap</object-name>
+    <object-name>Wings</object-name>
+    <object-name>LHflap</object-name>
+    <object-name>wavefront obj</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>Label 002b</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>Label 002b</object-name>
+    <object-name>Rudder6</object-name>
+    <object-name>Rudder7</object-name>
+    <object-name>Tail08</object-name>
+    <object-name>Rudder</object-name>
+  </animation>
+
   <animation>
     <type>material</type>
-    <object-name>Engines</object-name>
-    <object-name>Fuselage</object-name>
-    <object-name>Cabin.door</object-name>
-    <object-name>Wings</object-name>
-    <object-name>Rudder</object-name>
-    <object-name>RHelevator</object-name>
-    <object-name>LHelevator</object-name>
-    <object-name>RHflap</object-name>
-    <object-name>RHaileron</object-name>
-    <object-name>LHflap</object-name>
-    <object-name>LHaileron</object-name>
-    <object-name>eng2fanb</object-name>
-    <object-name>eng1fanb</object-name>
-    <object-name>eng2fan</object-name>
-    <object-name>eng1fan</object-name>
-    <property-base>sim/model/livery</property-base>
-    <object-name>UprReverser</object-name>
-    <object-name>LwrReverser</object-name>
+    <object-name>bodyWork</object-name>
+    <property-base>sim/model/livery/bodyWork</property-base>
     <texture-prop>texture</texture-prop>
-    <texture>Paint1.png</texture>
+    <texture>wavevom.png</texture>
   </animation>
+  
 <!-- Instruments -->
   <model>
     <name>PFD1</name>

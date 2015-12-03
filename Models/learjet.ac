@@ -8746,7 +8746,7 @@ name "beacon"
 loc 3.521 -0.559865 0
 data 8
 Mesh.151
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 11
 13.6179 3.73686 0
@@ -17916,7 +17916,7 @@ kids 1
 OBJECT poly
 name "RHelevator"
 loc -0.680682 -0.00805402 -0.030836
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 20
 9.60041 3.84019 -0.0407614
@@ -18056,7 +18056,7 @@ kids 1
 OBJECT poly
 name "LHelevator"
 loc -0.580824 -0.00805402 -0.0308361
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 16
 9.30885 3.86242 0.0505673
@@ -18168,7 +18168,7 @@ kids 1
 OBJECT poly
 name "Label 002b"
 loc 0.295782 -0.00805408 -0.0308361
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 148
 7.12505 3.70962 0.060241
@@ -19407,7 +19407,7 @@ OBJECT poly
 name "LHspoiler.btm"
 data 8
 Mesh.246
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 7.70402 0.165876 3.92643
@@ -19466,7 +19466,7 @@ OBJECT poly
 name "LHspoiler.top"
 data 8
 Mesh.203
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 7.70402 0.290016 3.92643
@@ -19525,7 +19525,7 @@ OBJECT poly
 name "RHspoiler.btm"
 data 8
 Mesh.245
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 7.70402 0.165876 -3.92643
@@ -19584,7 +19584,7 @@ OBJECT poly
 name "RHspoiler.top"
 data 8
 Mesh.204
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 7.70402 0.290016 -3.92643
@@ -19646,7 +19646,7 @@ kids 1
 OBJECT poly
 name "LHaileron"
 loc 0 0 -0.068284
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 24
 1.84649 1.1528 2.97809
@@ -19802,7 +19802,7 @@ kids 1
 OBJECT poly
 name "RHaileron"
 loc -1.0359 0 0.0129633
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 26
 3.06985 1.31574 -5.66647
@@ -21024,7 +21024,7 @@ OBJECT poly
 name "magcompass_1"
 data 8
 Mesh.005
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 71
 2.33273 0.952207 0.021797
@@ -23138,7 +23138,7 @@ OBJECT poly
 name "AuxGear"
 data 8
 Mesh.144
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 39
 2.4867 0.350015 0.129555
@@ -25256,7 +25256,7 @@ OBJECT poly
 name "Bezels.001"
 data 8
 Mesh.080
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 96
 2.41559 0.702763 0.132634
@@ -25865,7 +25865,7 @@ OBJECT poly
 name "Bezels.002"
 data 8
 Mesh.256
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 2.42882 0.646974 0.423618
@@ -25917,7 +25917,7 @@ OBJECT poly
 name "Bezels.004"
 data 8
 Mesh.258
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 2.42882 0.646974 -0.593831
@@ -26020,7 +26020,7 @@ OBJECT poly
 name "Ebrake.lever"
 data 10
 Circle.003
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 49
 2.48083 0.343508 0.485028
@@ -26486,7 +26486,7 @@ OBJECT poly
 name "FlapLever"
 data 8
 Mesh.066
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 16
 2.64549 0.387091 -0.069953
@@ -26609,7 +26609,7 @@ OBJECT poly
 name "GWarn.lamp"
 data 10
 Sphere.002
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 17
 2.47437 0.389504 0.115266
@@ -26887,7 +26887,7 @@ OBJECT poly
 name "GearLever"
 data 8
 Mesh.028
-texture "Paint1.png"
+texture "wavevom.png"
 crease 50.000000
 numvert 34
 2.49096 0.454686 0.134354
@@ -27209,7 +27209,7 @@ OBJECT poly
 name "Glareshield"
 data 8
 Mesh.018
-texture "Paint1.png"
+texture "wavevom.png"
 crease 50.000000
 numvert 196
 2.44983 0.859156 0.326038
@@ -28904,7 +28904,7 @@ OBJECT poly
 name "Knob.001"
 data 8
 Mesh.260
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 51
 2.4377 0.595821 -0.516428
@@ -29276,7 +29276,7 @@ OBJECT poly
 name "Knob.011"
 data 8
 Mesh.046
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 22
 2.48674 0.408849 -0.163983
@@ -29436,7 +29436,7 @@ OBJECT poly
 name "Knob.015"
 data 8
 Mesh.050
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 22
 2.52686 0.378843 -0.15102
@@ -29596,7 +29596,7 @@ OBJECT poly
 name "Knob.016"
 data 8
 Mesh.047
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 22
 2.57103 0.345803 -0.138395
@@ -29756,7 +29756,7 @@ OBJECT poly
 name "Knob.017"
 data 8
 Mesh.129
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 22
 2.70197 0.292004 -0.057501
@@ -29916,7 +29916,7 @@ OBJECT poly
 name "Knob.019"
 data 8
 Mesh.043
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 51
 2.4377 0.593727 0.501089
@@ -31239,7 +31239,7 @@ OBJECT poly
 name "N1Comp"
 data 8
 Mesh.010
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 22
 2.39988 0.799599 0.158288
@@ -31407,7 +31407,7 @@ OBJECT poly
 name "N1Comp.001"
 data 8
 Mesh.011
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 25
 2.41822 0.770653 0.175278
@@ -31967,7 +31967,7 @@ OBJECT poly
 name "Plane.099"
 data 9
 Plane.121
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 32
 2.46411 0.436139 -0.339319
@@ -33082,7 +33082,7 @@ OBJECT poly
 name "Seats"
 data 8
 Mesh.128
-texture "Paint1.png"
+texture "wavevom.png"
 crease 60.000000
 numvert 142
 3.33303 0.934146 -0.212917
@@ -34335,7 +34335,7 @@ OBJECT poly
 name "ThrLever01"
 data 8
 Mesh.158
-texture "Paint1.png"
+texture "wavevom.png"
 crease 50.000000
 numvert 26
 2.64605 0.294319 0.013165
@@ -34578,7 +34578,7 @@ OBJECT poly
 name "ThrLever02"
 data 8
 Mesh.157
-texture "Paint1.png"
+texture "wavevom.png"
 crease 50.000000
 numvert 26
 2.64605 0.294319 -0.025546
@@ -38262,7 +38262,7 @@ OBJECT poly
 name "TrimWheel"
 data 10
 Circle.015
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 182
 2.63644 0.283694 0.061929
@@ -42056,7 +42056,7 @@ OBJECT poly
 name "auxgear"
 data 8
 Mesh.090
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 83
 2.50189 0.363792 0.287098
@@ -42920,7 +42920,7 @@ OBJECT poly
 name "cockpit.001"
 data 8
 Mesh.140
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 6
 2.4498 0.867016 0.225973
@@ -43232,7 +43232,7 @@ OBJECT poly
 name "guard"
 data 8
 Mesh.138
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 152
 2.71135 0.282927 0.048086
@@ -44819,7 +44819,7 @@ OBJECT poly
 name "magcompass.001"
 data 8
 Mesh.035
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 4
 2.41371 0.909813 -0.000542
@@ -44958,7 +44958,7 @@ OBJECT poly
 name "panel"
 data 8
 Mesh.008
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 198
 2.42185 0.668082 0.132483
@@ -46524,7 +46524,7 @@ OBJECT poly
 name "seat1.001"
 data 8
 Cube.005
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 78
 6.71079 0.209336 0.20425
@@ -47142,7 +47142,7 @@ OBJECT poly
 name "seat1.002"
 data 8
 Cube.002
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 78
 6.71079 0.209336 -0.534701
@@ -47760,7 +47760,7 @@ OBJECT poly
 name "seat1.003"
 data 8
 Cube.007
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 78
 7.46679 0.209336 -0.534701
@@ -48378,7 +48378,7 @@ OBJECT poly
 name "seat1.004"
 data 8
 Cube.009
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 78
 7.46679 0.209336 0.20425
@@ -48996,7 +48996,7 @@ OBJECT poly
 name "seat1.005"
 data 8
 Cube.011
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 78
 4.82553 0.209336 0.53775
@@ -49614,7 +49614,7 @@ OBJECT poly
 name "seats.001"
 data 8
 Mesh.021
-texture "Paint1.png"
+texture "wavevom.png"
 crease 60.000000
 numvert 34
 3.24994 0.473778 -0.650483
@@ -50123,7 +50123,7 @@ OBJECT poly
 name "seat1"
 data 8
 Cube.010
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 77
 4.77154 0.729192 -0.192374
@@ -50713,7 +50713,7 @@ name "Cabin.door.001"
 loc 0.955907 0.00839955 -0.0133502
 data 8
 Mesh.318
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 30
 4.14894 0.005307 0.543757
@@ -50883,7 +50883,7 @@ name "Cabin.door"
 loc 0.955907 0.00839955 -0.0133502
 data 8
 Mesh.016
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 50
 4.12935 0.326465 0.77711
@@ -51096,7 +51096,7 @@ OBJECT poly
 name "Wlightbezel"
 data 10
 Circle.010
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 27
 5.40645 0.302615 0.769836
@@ -51297,7 +51297,7 @@ name "cabin_1"
 loc 0.852136 0.00839955 -0.0133502
 data 8
 Mesh.003
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 473
 7.61114 1.14765 -0.22362
@@ -54584,7 +54584,7 @@ name "Fuselage"
 loc 0.955907 0.00839955 -0.0133502
 data 8
 Mesh.159
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 8
 4.71079 0.742917 0.77711
@@ -54615,7 +54615,7 @@ OBJECT poly
 name "RHwheel.hub"
 data 9
 Torus.002
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 50
 7.28877 -0.741072 -2.88971
@@ -54962,7 +54962,7 @@ OBJECT poly
 name "RHwheel"
 data 9
 Torus.003
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 168
 7.51799 -0.741072 -2.80973
@@ -56147,7 +56147,7 @@ OBJECT poly
 name "RHUprShock"
 data 8
 Mesh.106
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 16
 7.45168 0.065583 -2.60227
@@ -56228,7 +56228,7 @@ OBJECT poly
 name "RHTrailingArm"
 data 8
 Mesh.107
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 93
 7.18362 -0.612114 -2.65682
@@ -56936,7 +56936,7 @@ OBJECT poly
 name "RHstrut"
 data 8
 Mesh.168
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 64
 7.18151 -0.484147 -2.78519
@@ -57366,7 +57366,7 @@ OBJECT poly
 name "RHLwrShock"
 data 8
 Mesh.030
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 16
 7.30185 -0.706965 -2.65119
@@ -57447,7 +57447,7 @@ OBJECT poly
 name "LHwheel.hub"
 data 9
 Torus.005
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 50
 7.289 -0.741072 2.73003
@@ -58978,7 +58978,7 @@ OBJECT poly
 name "LHUprShock"
 data 8
 Mesh.124
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 16
 7.45168 0.064038 2.60178
@@ -59059,7 +59059,7 @@ OBJECT poly
 name "LHTrailingArm"
 data 8
 Mesh.019
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 93
 7.18362 -0.613252 2.66118
@@ -59767,7 +59767,7 @@ OBJECT poly
 name "LHstrut"
 data 8
 Mesh.161
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 64
 7.18151 -0.48437 2.78863
@@ -60197,7 +60197,7 @@ OBJECT poly
 name "LHLwrShock"
 data 8
 Mesh.039
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 16
 7.30185 -0.708139 2.65622
@@ -60278,7 +60278,7 @@ OBJECT poly
 name "FUdamper"
 data 8
 Mesh.029
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 8
 1.81863 -0.343362 -0.007194
@@ -60337,7 +60337,7 @@ OBJECT poly
 name "FrtWheel.hub"
 data 9
 Torus.001
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 50
 1.6689 -0.744498 -0.079982
@@ -61869,7 +61869,7 @@ name "FrtStrut"
 loc 0 0.0477877 0
 data 8
 Mesh.099
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 44
 1.71358 -0.519425 -0.065663
@@ -62174,7 +62174,7 @@ OBJECT poly
 name "FLdamper"
 data 8
 Mesh.051
-texture "Paint1.png"
+texture "wavevom.png"
 crease 30.000000
 numvert 8
 1.80805 -0.334625 -0.007194
@@ -63637,7 +63637,7 @@ name "Wings.whlwell"
 loc 0.890403 0.0535159 0.0161795
 data 8
 Mesh.267
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 80
 0.779593 0.046149 -0.190985
@@ -64932,7 +64932,7 @@ kids 1
 OBJECT poly
 name "Label 002b"
 loc -0.549324 -0.0174148 -0.0174147
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 5183
 1.26375 1.96327 1.5502
@@ -127889,7 +127889,7 @@ kids 1
 OBJECT poly
 name "RHflap"
 loc -2.26454 -0.0211235 -0.0773317
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 37
 4.09866 1.06958 -0.584028
@@ -128136,7 +128136,7 @@ kids 1
 OBJECT poly
 name "LHflap"
 loc -14.1465 -5.96046e-008 -0.652761
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 35
 15.4843 1.1596 1.2799
@@ -128364,7 +128364,7 @@ refs 3
 kids 0
 OBJECT poly
 name "wavefront obj"
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 417
 7.3991 0.019086 -7.00925
@@ -132981,7 +132981,7 @@ kids 1
 OBJECT poly
 name "Label 002b"
 loc 0.295782 -0.00805426 -0.0308361
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 20
 8.01941 2.57028 -0.0875181
@@ -133076,7 +133076,7 @@ kids 2
 OBJECT poly
 name "Label 002b"
 loc 0.295782 -0.00805408 -0.0308361
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 2679
 -1.60244 1.68116 0.887044
@@ -168087,7 +168087,7 @@ kids 1
 OBJECT poly
 name "Rudder7"
 loc 0.295782 -0.00901532 -0.0307649
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 10
 7.86404 2.57846 0.0973998
@@ -168125,7 +168125,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Tail08"
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 168
 17.6962 2.35971 0.068548
@@ -169993,7 +169993,7 @@ kids 0
 OBJECT poly
 name "Rudder"
 loc -2.08746 0 0
-texture "Paint1.png"
+texture "wavevom.png"
 crease 45.000000
 numvert 89
 20.1922 1.77377 0.00573418

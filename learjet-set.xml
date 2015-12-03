@@ -213,6 +213,13 @@ PH-JBO 20120130p
               <property>sim/model/autostart</property>
             </binding>
           </item>
+	  <item>
+            <label>Select livery</label>
+            <binding>
+              <command>nasal</command>
+              <script>aircraft.livery.dialog.toggle()</script>
+            </binding>
+	  </item>
           <item>
             <label>Yokes On/Off</label>
             <binding>
@@ -505,6 +512,7 @@ PH-JBO 20120130p
       <file>Aircraft/Learjet2/Nasal/Electrical.nas</file>
       <file>Aircraft/Learjet2/Nasal/flightdirector.nas</file>
       <file>Aircraft/Learjet2/Nasal/M877.nas</file>
+      <file>Aircraft/Learjet2/Nasal/liveries.nas</file>
     </learjet>
     <efis>
       <file>Aircraft/Instruments-3d/primus-1000/P1000.nas</file>
